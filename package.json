@@ -21,7 +21,7 @@
     "eslint-plugin-import": "^2.22.1"
   },
   "scripts": {
-    "test": "jest"
+    "test": "node ./node_modules/mocha/bin/_mocha"
   },
   "eslintConfig": {
     "root": true
