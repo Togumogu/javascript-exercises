@@ -1,7 +1,6 @@
 const removeFromArray = function(array, remove) {
     let strArray = array.toString()
     strArray = strArray.replace(remove + ",", "")
-    console.log(strArray)
     let joinedArray = strArray.split(",")
     return joinedArray
 };
