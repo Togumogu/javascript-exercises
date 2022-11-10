@@ -1,12 +1,8 @@
 const reverseString = function(str) {
-    let word = ""
-    
-    
-    let word = str.slice(str.length-1)
-    return word
+    return str.split("").reverse().join("")
 };
 
-console.log(reverseString("Hello"))
+console.log(reverseString("Toygun is a genius"))
 
 // Do not edit below this line
 module.exports = reverseString;
