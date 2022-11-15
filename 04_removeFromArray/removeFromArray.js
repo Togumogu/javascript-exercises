@@ -5,7 +5,7 @@ const removeFromArray = function(array, remove) {
     return joinedArray
 };
 
-console.log(removeFromArray([1, 2, 3, 4], 3,))
+console.log(removeFromArray([1, 2, 3, 4], 4))
 
 // Do not edit below this line
 module.exports = removeFromArray;
